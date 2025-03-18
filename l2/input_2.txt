@@ -1,0 +1,19 @@
+020.10   ! Program "Trigonometry and Logarithms"
+020.20   TYPE "Enter angle (in radians): "
+020.30   ACCEPT AN
+020.40   ! Calculating sine, cosine, and arctangent
+020.50   LET S = FSIN(AN)
+020.60   LET C = FCOS(AN)
+020.70   LET AT = FATN(AN)
+020.80   ! Calculating natural logarithm and square root (using FLOG and FSQT)
+020.90   TYPE "Enter number for logarithm and square root: "
+020.95   ACCEPT X0
+021.00   LET L = FLOG(X0)
+021.10   LET Q = FSQT(X0)
+021.20   ! Calculating absolute value and integer part
+021.30   LET ABSVAL = FABS(-X0)
+021.40   LET INTGR = FITR(X0)
+021.50   TYPE "SIN: ", S, " COS: ", C, " ATAN: ", AT
+021.60   TYPE "Logarithm: ", L, " Square root: ", Q
+021.70   TYPE "Absolute value: ", ABSVAL, " Integer part: ", INTGR
+021.80   END

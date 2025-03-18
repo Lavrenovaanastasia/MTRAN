@@ -1,0 +1,19 @@
+010.10   ! The program "Calculator of arithmetic operations"
+010.11   @@@@
+010.20   TYPE "Enter the first number:
+010.30   ACCEPT A1
+010.40   TYPE "Enter the second number: "
+010.50   ACCEPT B2
+010.60   LET S = A1 + B2         
+010.70   LET D = A1 - B2         
+010.80   LET M = A1 * B2          
+010.90   LET Q = A1 / B2          
+010.95   ! Exponent: A1 is raised to the power of B2, the result is converted to an integer
+010.96   LET E = A1 ^ B2          
+010.97   TYPE "The amount: ", S
+010.98   TYPE " Difference: ", D
+010.99   TYPE " Composition: ", M
+011.00   TYPE " Private: ", Q
+010.01   TYPE " The exhibitor: ", E
+011.02   
+
