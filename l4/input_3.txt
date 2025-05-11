@@ -1,0 +1,16 @@
+030.10   ! Program "Arrays and Loops"
+030.20   TYPE "Generating 10 random numbers and calculating their squares:"
+030.30   FOR I = -2, 7        ! Using the loop variable (the first two characters "I " are important)
+030.40       ! Generating a random number and storing it in array R; indices from -2048 to 2047 are allowed
+030.50       LET R (I) = FRAN()
+030.60       ! Calculating the square of the random number
+030.70       LET Q = R(I) * R(I)
+030.80       TYPE "Number: ", R(I), " Square: ", Q
+030.90   NEXT I
+031.00   ! Demonstrating the use of FEXP and FSGN
+031.10   TYPE "Enter a number for FEXP and FSGN: "
+031.20   ACCEPT NUM
+031.30   LET EXPVAL = FEXP(NUM)   ! The result is an integer
+031.40   LET SG = FSGN(NUM)       ! Determining the sign of the number 
+031.50   TYPE "FEXP: ", EXPVAL, " FSGN: ", SG
+031.60   END

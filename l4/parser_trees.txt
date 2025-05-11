@@ -1,0 +1,295 @@
+Файл: input_1.txt
++-- LINE_NUMBER: 010.10
++-- COMMENT: ! The program "Calculator of arithmetic operations"
++-- LINE_NUMBER: 010.15
++-- COMMENT: ! Ошибка: нецелочисленный параметр цикла
+    +-- FOR
+    +-- IDENTIFIER: K
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.20
+    +-- TYPE
++-- LINE_NUMBER: 010.25
++-- COMMENT: ! Ошибка: использование необъявленной переменной
+    +-- TYPE
+    +-- IDENTIFIER: C
++-- LINE_NUMBER: 010.30
+    +-- ACCEPT
+    +-- IDENTIFIER: A1
++-- LINE_NUMBER: 010.31
++-- COMMENT: ! Ошибка: повторное объявление переменной
+    +-- ACCEPT
+    +-- IDENTIFIER: A1
++-- LINE_NUMBER: 010.35
++-- COMMENT: ! Ошибка: присвоение строки числовой переменной
+    +-- LET
+    +-- IDENTIFIER: A1
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.40
+    +-- TYPE
++-- LINE_NUMBER: 010.50
+    +-- ACCEPT
+    +-- IDENTIFIER: B2
++-- LINE_NUMBER: 010.55
++-- COMMENT: ! Ошибка: использование необъявленного массива
+    +-- ACCEPT
++-- LINE_NUMBER: 010.60
+    +-- LET
+    +-- IDENTIFIER: S
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.65
++-- COMMENT: ! Ошибка: сложение строки и числа
+    +-- TYPE
++-- LINE_NUMBER: 010.70
+    +-- LET
+    +-- IDENTIFIER: D
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.72
++-- COMMENT: ! Ошибка: использование ключевого слова как идентификатора
+    +-- LET
+    +-- ERROR: Expected variable
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.75
++-- COMMENT: ! Ошибка: отрицательный индекс массива
+    +-- LET
+    +-- IDENTIFIER: D
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.80
+    +-- LET
+    +-- IDENTIFIER: M
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.85
++-- COMMENT: ! Ошибка: арифметическое выражение в условии
++-- LINE_NUMBER: 010.90
+    +-- LET
+    +-- IDENTIFIER: Q
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.91
++-- COMMENT: ! Ошибка: деление на ноль
+    +-- LET
+    +-- IDENTIFIER: Q
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.95
++-- COMMENT: ! Неправильное использование функции
++-- LINE_NUMBER: 010.96
++-- COMMENT: ! Ошибка: неверное число аргументов
+    +-- LET
+    +-- IDENTIFIER: E
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 010.97
+    +-- TYPE
++-- LINE_NUMBER: 010.98
+    +-- TYPE
++-- LINE_NUMBER: 010.99
+    +-- TYPE
++-- LINE_NUMBER: 011.00
+    +-- TYPE
++-- LINE_NUMBER: 011.01
+    +-- TYPE
++-- LINE_NUMBER: 011.02
++-- COMMENT: ! Ошибка: необъявленные переменные
+    +-- LET
+    +-- IDENTIFIER: Z
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 011.03
++-- COMMENT: ! Ошибка: использование неинициализированной переменной
+    +-- LET
+    +-- IDENTIFIER: W
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 011.04
++-- COMMENT: ! Ошибка: несоответствие переменной цикла
+    +-- NEXT
+    +-- IDENTIFIER: K
++-- LINE_NUMBER: 011.05
++-- COMMENT: ! Ошибка: использование массива без индекса
+    +-- TYPE
+    +-- IDENTIFIER: ARR
++-- LINE_NUMBER: 011.06
++-- COMMENT: ! Ошибка: присвоение строки числовой переменной
+    +-- LET
+    +-- IDENTIFIER: M
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 011.07
++-- END
+
+-------------------------------------------------
+
+Файл: input_2.txt
++-- LINE_NUMBER: 020.10
++-- COMMENT: ! Program "Trigonometry and Logarithms"
++-- LINE_NUMBER: 020.20
+    +-- TYPE
++-- LINE_NUMBER: 020.30
+    +-- ACCEPT
+    +-- IDENTIFIER: AN
++-- LINE_NUMBER: 020.40
++-- COMMENT: ! Calculating sine, cosine, and arctangent
++-- LINE_NUMBER: 020.50
+    +-- LET
+    +-- IDENTIFIER: S
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 020.60
+    +-- LET
+    +-- IDENTIFIER: C
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 020.70
+    +-- LET
+    +-- IDENTIFIER: AT
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 020.80
++-- COMMENT: ! Calculating natural logarithm and square root (using FLOG and FSQT)
++-- LINE_NUMBER: 020.90
+    +-- TYPE
++-- LINE_NUMBER: 020.95
+    +-- ACCEPT
+    +-- IDENTIFIER: X0
++-- LINE_NUMBER: 021.00
+    +-- LET
+    +-- IDENTIFIER: L
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 021.10
+    +-- LET
+    +-- IDENTIFIER: Q
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 021.20
++-- COMMENT: ! Calculating absolute value and integer part
++-- LINE_NUMBER: 021.30
+    +-- LET
+    +-- IDENTIFIER: ABSVAL
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 021.40
+    +-- LET
+    +-- IDENTIFIER: INTGR
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 021.50
+    +-- TYPE
++-- LINE_NUMBER: 021.60
+    +-- TYPE
++-- LINE_NUMBER: 021.70
+    +-- TYPE
++-- LINE_NUMBER: 021.80
++-- END
+
+-------------------------------------------------
+
+Файл: input_3.txt
++-- LINE_NUMBER: 030.10
++-- COMMENT: ! Program "Arrays and Loops"
++-- LINE_NUMBER: 030.20
+    +-- TYPE
++-- LINE_NUMBER: 030.30
++-- COMMENT: ! Using the loop variable (the first two characters "I " are important)
+    +-- FOR
+    +-- IDENTIFIER: I
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 030.40
++-- COMMENT: ! Generating a random number and storing it in array R; indices from -2048 to 2047 are allowed
++-- LINE_NUMBER: 030.50
+    +-- LET
+    +-- IDENTIFIER: R
++-- LINE_NUMBER: 030.60
++-- COMMENT: ! Calculating the square of the random number
++-- LINE_NUMBER: 030.70
+    +-- LET
+    +-- IDENTIFIER: Q
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 030.80
+    +-- TYPE
++-- LINE_NUMBER: 030.90
+    +-- NEXT
+    +-- IDENTIFIER: I
++-- LINE_NUMBER: 031.00
++-- COMMENT: ! Demonstrating the use of FEXP and FSGN
++-- LINE_NUMBER: 031.10
+    +-- TYPE
++-- LINE_NUMBER: 031.20
+    +-- ACCEPT
+    +-- IDENTIFIER: NUM
++-- LINE_NUMBER: 031.30
++-- COMMENT: ! The result is an integer
+    +-- LET
+    +-- IDENTIFIER: EXPVAL
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 031.40
++-- COMMENT: ! Determining the sign of the number
+    +-- LET
+    +-- IDENTIFIER: SG
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
++-- LINE_NUMBER: 031.50
+    +-- TYPE
++-- LINE_NUMBER: 031.60
++-- END
+
+-------------------------------------------------
+
