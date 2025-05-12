@@ -1,0 +1,207 @@
+Файл: input_1.txt
++-- LINE_NUMBER: 010.05
+    +-- ACCEPT
+    +-- IDENTIFIER: S
++-- LINE_NUMBER: 010.06
+    +-- ACCEPT
+    +-- IDENTIFIER: D
++-- LINE_NUMBER: 010.07
+    +-- ACCEPT
+    +-- IDENTIFIER: M
++-- LINE_NUMBER: 010.08
+    +-- ACCEPT
+    +-- IDENTIFIER: Q
++-- LINE_NUMBER: 010.09
+    +-- ACCEPT
+    +-- IDENTIFIER: E
++-- LINE_NUMBER: 010.10
+    +-- ACCEPT
+    +-- IDENTIFIER: A
++-- LINE_NUMBER: 010.11
+    +-- LET
+    +-- IDENTIFIER: A
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- NUMBER: 6.0
++-- LINE_NUMBER: 010.15
+    +-- ACCEPT
+    +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.20
+    +-- LET
+    +-- IDENTIFIER: B
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- NUMBER: 3.0
++-- LINE_NUMBER: 010.30
+    +-- LET
+    +-- IDENTIFIER: S
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- IDENTIFIER: A
+|       +-- OPERATOR: +
+|   |       +-- Term
+|   |           +-- Factor
+|   |           +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.40
+    +-- LET
+    +-- IDENTIFIER: D
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- IDENTIFIER: A
+|       +-- OPERATOR: -
+|   |       +-- Term
+|   |           +-- Factor
+|   |           +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.50
+    +-- LET
+    +-- IDENTIFIER: M
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- IDENTIFIER: A
+|           +-- OPERATOR: *
+|       |       +-- Factor
+|       |       +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.60
+    +-- LET
+    +-- IDENTIFIER: Q
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- IDENTIFIER: A
+|           +-- OPERATOR: /
+|       |       +-- Factor
+|       |       +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.70
+    +-- LET
+    +-- IDENTIFIER: E
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|               +-- IDENTIFIER: A
+|           +-- OPERATOR: ^
+|       |       +-- Factor
+|       |       +-- IDENTIFIER: B
++-- LINE_NUMBER: 010.74
+    +-- TYPE
++-- LINE_NUMBER: 010.78
+    +-- TYPE
++-- LINE_NUMBER: 010.80
+    +-- TYPE
++-- LINE_NUMBER: 010.81
+    +-- TYPE
++-- LINE_NUMBER: 010.85
+    +-- TYPE
++-- LINE_NUMBER: 010.86
+    +-- TYPE
++-- LINE_NUMBER: 010.88
+    +-- TYPE
++-- LINE_NUMBER: 010.90
++-- END
+
+-------------------------------------------------
+
+Файл: input_2.txt
++-- LINE_NUMBER: 020.10
+    +-- ACCEPT
+    +-- IDENTIFIER: ANGLE
++-- LINE_NUMBER: 020.11
+    +-- ACCEPT
+    +-- IDENTIFIER: S
++-- LINE_NUMBER: 020.12
+    +-- ACCEPT
+    +-- IDENTIFIER: C
++-- LINE_NUMBER: 020.13
+    +-- ACCEPT
+    +-- IDENTIFIER: L
++-- LINE_NUMBER: 020.14
+    +-- ACCEPT
+    +-- IDENTIFIER: SQ
++-- LINE_NUMBER: 020.15
++-- COMMENT: ! π/2
++-- LINE_NUMBER: 020.20
+    +-- LET
+    +-- IDENTIFIER: S
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|                   +-- FunctionCall: FSIN
++-- LINE_NUMBER: 020.30
+    +-- LET
+    +-- IDENTIFIER: C
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|                   +-- FunctionCall: FCOS
++-- LINE_NUMBER: 020.40
+    +-- LET
+    +-- IDENTIFIER: L
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|                   +-- FunctionCall: FLOG
++-- LINE_NUMBER: 020.50
+    +-- LET
+    +-- IDENTIFIER: SQ
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|                   +-- FunctionCall: FSQT
++-- LINE_NUMBER: 020.60
+    +-- TYPE
++-- LINE_NUMBER: 020.61
+    +-- TYPE
++-- LINE_NUMBER: 020.62
+    +-- TYPE
++-- LINE_NUMBER: 020.63
+    +-- TYPE
++-- LINE_NUMBER: 020.70
++-- END
+
+-------------------------------------------------
+
+Файл: input_3.txt
++-- LINE_NUMBER: 030.10
++-- LINE_NUMBER: 030.20
+    +-- LET
+        +-- ArrayAccess: R
+        +-- ERROR: Expected '('
++-- LINE_NUMBER: 030.30
+    +-- LET
+        +-- ArrayAccess: R
+        +-- ERROR: Expected '('
++-- LINE_NUMBER: 030.40
+    +-- LET
+        +-- ArrayAccess: R
+        +-- ERROR: Expected '('
++-- LINE_NUMBER: 030.50
+    +-- LET
+    +-- IDENTIFIER: TOTAL
+|   +-- OPERATOR: =
+|       +-- Expression
+|           +-- Term
+|               +-- Factor
+|                   +-- ArrayAccess: R
+|                   +-- ERROR: Expected '('
++-- LINE_NUMBER: 030.60
+    +-- TYPE
++-- LINE_NUMBER: 030.70
++-- END
+
+-------------------------------------------------
+

@@ -1,0 +1,7 @@
+030.10 DIM R(3)
+030.20 LET R(1) = 2.0
+030.30 LET R(2) = 3.0
+030.40 LET R(3) = 4.0
+030.50 LET TOTAL = R(1) + R(2) + R(3)
+030.60 TYPE "Array sum:", TOTAL
+030.70 END
